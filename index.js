@@ -35,7 +35,6 @@ app.get('/script.js', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`running on http://localhost:${PORT}`);
-    require('./app.js')
+    console.log(`running on ${PORT}`);
 });
 
